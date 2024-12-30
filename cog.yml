@@ -1,0 +1,8 @@
+build:
+  gpu: true
+  python_version: "3.9"
+  python_packages:
+    - "whisper-jax==0.0.4"
+    - "jax==0.4.8"
+    - "jaxlib==0.4.7"
+    - "numpy==1.24.3"
